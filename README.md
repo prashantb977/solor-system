@@ -17,8 +17,4 @@ A visually engaging 3D simulation of our solar system built using Three.js. It i
 - Click to view planet info
 - Orbit animations and labels
 
-## 📦 How to Run Locally
-```bash
-git clone https://github.com/yourusername/solar-system.git
-cd solar-system
-open index.html (or run with Live Server)
+
