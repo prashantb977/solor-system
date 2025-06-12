@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+     <link rel="stylesheet" href="style.css" />
+    
+</head>
+<body>
+    <div id="tooltip" style="
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  pointer-events: none;
+  display: none;
+  z-index: 10;
+"></div>
+
+
+<div id="planet-info" style="
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: none;
+  max-width: 300px;
+  z-index: 999;
+">
+  <h2 id="info-title"></h2>
+  <p id="info-description"></p>
+  <button onclick="closeInfo()" style="margin-top: 10px;">Close</button>
+</div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
